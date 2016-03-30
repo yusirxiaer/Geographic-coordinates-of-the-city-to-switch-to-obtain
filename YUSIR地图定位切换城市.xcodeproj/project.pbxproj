@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB476D7A1CA5704B00E31477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476D791CA5704B00E31477 /* main.m */; };
+		FB476D7D1CA5704B00E31477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476D7C1CA5704B00E31477 /* AppDelegate.m */; };
+		FB476D831CA5704B00E31477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB476D811CA5704B00E31477 /* Main.storyboard */; };
+		FB476D851CA5704B00E31477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB476D841CA5704B00E31477 /* Assets.xcassets */; };
+		FB476D881CA5704B00E31477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB476D861CA5704B00E31477 /* LaunchScreen.storyboard */; };
+		FB476D931CA5704B00E31477 /* YUSIR________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476D921CA5704B00E31477 /* YUSIR________Tests.m */; };
+		FB476D9E1CA5704B00E31477 /* YUSIR________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476D9D1CA5704B00E31477 /* YUSIR________UITests.m */; };
+		FB476DAE1CA572D100E31477 /* YSHOMEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476DAD1CA572D100E31477 /* YSHOMEViewController.m */; };
+		FB476DB01CA5731D00E31477 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB476DAF1CA5731D00E31477 /* CoreLocation.framework */; };
+		FB476DB41CA57B5400E31477 /* YSCitysTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476DB31CA57B5400E31477 /* YSCitysTableViewController.m */; };
+		FB476DB81CA57CDC00E31477 /* YSCitysTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476DB61CA57CDC00E31477 /* YSCitysTableViewCell.m */; };
+		FB476DB91CA57CDC00E31477 /* YSCitysTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB476DB71CA57CDC00E31477 /* YSCitysTableViewCell.xib */; };
+		FB476DBB1CA57D1F00E31477 /* Provineces.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB476DBA1CA57D1F00E31477 /* Provineces.plist */; };
+		FB476DC41CA6322700E31477 /* YSTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476DC31CA6322700E31477 /* YSTableHeaderView.m */; };
+		FB476DCA1CA696C600E31477 /* YSCities.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476DC91CA696C600E31477 /* YSCities.m */; };
+		FB476E0F1CA8B93A00E31477 /* YSProvinces.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476E0E1CA8B93A00E31477 /* YSProvinces.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB476D8F1CA5704B00E31477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB476D6D1CA5704B00E31477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB476D741CA5704B00E31477;
+			remoteInfo = "YUSIR地图定位切换城市";
+		};
+		FB476D9A1CA5704B00E31477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB476D6D1CA5704B00E31477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB476D741CA5704B00E31477;
+			remoteInfo = "YUSIR地图定位切换城市";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB476D751CA5704B00E31477 /* YUSIR地图定位切换城市.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YUSIR地图定位切换城市.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB476D791CA5704B00E31477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB476D7B1CA5704B00E31477 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB476D7C1CA5704B00E31477 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB476D821CA5704B00E31477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB476D841CA5704B00E31477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB476D871CA5704B00E31477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB476D891CA5704B00E31477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB476D8E1CA5704B00E31477 /* YUSIR地图定位切换城市Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YUSIR地图定位切换城市Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB476D921CA5704B00E31477 /* YUSIR________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YUSIR________Tests.m"; sourceTree = "<group>"; };
+		FB476D941CA5704B00E31477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB476D991CA5704B00E31477 /* YUSIR地图定位切换城市UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YUSIR地图定位切换城市UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB476D9D1CA5704B00E31477 /* YUSIR________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YUSIR________UITests.m"; sourceTree = "<group>"; };
+		FB476D9F1CA5704B00E31477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB476DAC1CA572D100E31477 /* YSHOMEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHOMEViewController.h; sourceTree = "<group>"; };
+		FB476DAD1CA572D100E31477 /* YSHOMEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHOMEViewController.m; sourceTree = "<group>"; };
+		FB476DAF1CA5731D00E31477 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FB476DB21CA57B5400E31477 /* YSCitysTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCitysTableViewController.h; sourceTree = "<group>"; };
+		FB476DB31CA57B5400E31477 /* YSCitysTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCitysTableViewController.m; sourceTree = "<group>"; };
+		FB476DB51CA57CDC00E31477 /* YSCitysTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCitysTableViewCell.h; sourceTree = "<group>"; };
+		FB476DB61CA57CDC00E31477 /* YSCitysTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCitysTableViewCell.m; sourceTree = "<group>"; };
+		FB476DB71CA57CDC00E31477 /* YSCitysTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSCitysTableViewCell.xib; sourceTree = "<group>"; };
+		FB476DBA1CA57D1F00E31477 /* Provineces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Provineces.plist; sourceTree = "<group>"; };
+		FB476DC21CA6322700E31477 /* YSTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTableHeaderView.h; sourceTree = "<group>"; };
+		FB476DC31CA6322700E31477 /* YSTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTableHeaderView.m; sourceTree = "<group>"; };
+		FB476DC81CA696C600E31477 /* YSCities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCities.h; sourceTree = "<group>"; };
+		FB476DC91CA696C600E31477 /* YSCities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCities.m; sourceTree = "<group>"; };
+		FB476E0D1CA8B93A00E31477 /* YSProvinces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSProvinces.h; sourceTree = "<group>"; };
+		FB476E0E1CA8B93A00E31477 /* YSProvinces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSProvinces.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB476D721CA5704B00E31477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB476DB01CA5731D00E31477 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB476D8B1CA5704B00E31477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB476D961CA5704B00E31477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB476D6C1CA5704B00E31477 = {
+			isa = PBXGroup;
+			children = (
+				FB476DAF1CA5731D00E31477 /* CoreLocation.framework */,
+				FB476D771CA5704B00E31477 /* YUSIR地图定位切换城市 */,
+				FB476D911CA5704B00E31477 /* YUSIR地图定位切换城市Tests */,
+				FB476D9C1CA5704B00E31477 /* YUSIR地图定位切换城市UITests */,
+				FB476D761CA5704B00E31477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB476D761CA5704B00E31477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB476D751CA5704B00E31477 /* YUSIR地图定位切换城市.app */,
+				FB476D8E1CA5704B00E31477 /* YUSIR地图定位切换城市Tests.xctest */,
+				FB476D991CA5704B00E31477 /* YUSIR地图定位切换城市UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB476D771CA5704B00E31477 /* YUSIR地图定位切换城市 */ = {
+			isa = PBXGroup;
+			children = (
+				FB476DAB1CA5727800E31477 /* home */,
+				FB476D7B1CA5704B00E31477 /* AppDelegate.h */,
+				FB476D7C1CA5704B00E31477 /* AppDelegate.m */,
+				FB476D811CA5704B00E31477 /* Main.storyboard */,
+				FB476D841CA5704B00E31477 /* Assets.xcassets */,
+				FB476D861CA5704B00E31477 /* LaunchScreen.storyboard */,
+				FB476DBA1CA57D1F00E31477 /* Provineces.plist */,
+				FB476D891CA5704B00E31477 /* Info.plist */,
+				FB476D781CA5704B00E31477 /* Supporting Files */,
+			);
+			path = "YUSIR地图定位切换城市";
+			sourceTree = "<group>";
+		};
+		FB476D781CA5704B00E31477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB476D791CA5704B00E31477 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB476D911CA5704B00E31477 /* YUSIR地图定位切换城市Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB476D921CA5704B00E31477 /* YUSIR________Tests.m */,
+				FB476D941CA5704B00E31477 /* Info.plist */,
+			);
+			path = "YUSIR地图定位切换城市Tests";
+			sourceTree = "<group>";
+		};
+		FB476D9C1CA5704B00E31477 /* YUSIR地图定位切换城市UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB476D9D1CA5704B00E31477 /* YUSIR________UITests.m */,
+				FB476D9F1CA5704B00E31477 /* Info.plist */,
+			);
+			path = "YUSIR地图定位切换城市UITests";
+			sourceTree = "<group>";
+		};
+		FB476DAB1CA5727800E31477 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				FB476DAC1CA572D100E31477 /* YSHOMEViewController.h */,
+				FB476DAD1CA572D100E31477 /* YSHOMEViewController.m */,
+				FB476DB11CA57B2100E31477 /* Controller */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		FB476DB11CA57B2100E31477 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB476DBC1CA62EE400E31477 /* HeaderInSection */,
+				FB476DB21CA57B5400E31477 /* YSCitysTableViewController.h */,
+				FB476DB31CA57B5400E31477 /* YSCitysTableViewController.m */,
+				FB476DB51CA57CDC00E31477 /* YSCitysTableViewCell.h */,
+				FB476DB61CA57CDC00E31477 /* YSCitysTableViewCell.m */,
+				FB476DB71CA57CDC00E31477 /* YSCitysTableViewCell.xib */,
+				FB476DC71CA6961C00E31477 /* Model */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FB476DBC1CA62EE400E31477 /* HeaderInSection */ = {
+			isa = PBXGroup;
+			children = (
+				FB476DC21CA6322700E31477 /* YSTableHeaderView.h */,
+				FB476DC31CA6322700E31477 /* YSTableHeaderView.m */,
+			);
+			name = HeaderInSection;
+			sourceTree = "<group>";
+		};
+		FB476DC71CA6961C00E31477 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB476DC81CA696C600E31477 /* YSCities.h */,
+				FB476DC91CA696C600E31477 /* YSCities.m */,
+				FB476E0D1CA8B93A00E31477 /* YSProvinces.h */,
+				FB476E0E1CA8B93A00E31477 /* YSProvinces.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB476D741CA5704B00E31477 /* YUSIR地图定位切换城市 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB476DA21CA5704B00E31477 /* Build configuration list for PBXNativeTarget "YUSIR地图定位切换城市" */;
+			buildPhases = (
+				FB476D711CA5704B00E31477 /* Sources */,
+				FB476D721CA5704B00E31477 /* Frameworks */,
+				FB476D731CA5704B00E31477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YUSIR地图定位切换城市";
+			productName = "YUSIR地图定位切换城市";
+			productReference = FB476D751CA5704B00E31477 /* YUSIR地图定位切换城市.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB476D8D1CA5704B00E31477 /* YUSIR地图定位切换城市Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB476DA51CA5704B00E31477 /* Build configuration list for PBXNativeTarget "YUSIR地图定位切换城市Tests" */;
+			buildPhases = (
+				FB476D8A1CA5704B00E31477 /* Sources */,
+				FB476D8B1CA5704B00E31477 /* Frameworks */,
+				FB476D8C1CA5704B00E31477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB476D901CA5704B00E31477 /* PBXTargetDependency */,
+			);
+			name = "YUSIR地图定位切换城市Tests";
+			productName = "YUSIR地图定位切换城市Tests";
+			productReference = FB476D8E1CA5704B00E31477 /* YUSIR地图定位切换城市Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB476D981CA5704B00E31477 /* YUSIR地图定位切换城市UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB476DA81CA5704B00E31477 /* Build configuration list for PBXNativeTarget "YUSIR地图定位切换城市UITests" */;
+			buildPhases = (
+				FB476D951CA5704B00E31477 /* Sources */,
+				FB476D961CA5704B00E31477 /* Frameworks */,
+				FB476D971CA5704B00E31477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB476D9B1CA5704B00E31477 /* PBXTargetDependency */,
+			);
+			name = "YUSIR地图定位切换城市UITests";
+			productName = "YUSIR地图定位切换城市UITests";
+			productReference = FB476D991CA5704B00E31477 /* YUSIR地图定位切换城市UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB476D6D1CA5704B00E31477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YS;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YUSIR;
+				TargetAttributes = {
+					FB476D741CA5704B00E31477 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H2625W7SEG;
+					};
+					FB476D8D1CA5704B00E31477 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H2625W7SEG;
+						TestTargetID = FB476D741CA5704B00E31477;
+					};
+					FB476D981CA5704B00E31477 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H2625W7SEG;
+						TestTargetID = FB476D741CA5704B00E31477;
+					};
+				};
+			};
+			buildConfigurationList = FB476D701CA5704B00E31477 /* Build configuration list for PBXProject "YUSIR地图定位切换城市" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB476D6C1CA5704B00E31477;
+			productRefGroup = FB476D761CA5704B00E31477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB476D741CA5704B00E31477 /* YUSIR地图定位切换城市 */,
+				FB476D8D1CA5704B00E31477 /* YUSIR地图定位切换城市Tests */,
+				FB476D981CA5704B00E31477 /* YUSIR地图定位切换城市UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB476D731CA5704B00E31477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB476DB91CA57CDC00E31477 /* YSCitysTableViewCell.xib in Resources */,
+				FB476D881CA5704B00E31477 /* LaunchScreen.storyboard in Resources */,
+				FB476D851CA5704B00E31477 /* Assets.xcassets in Resources */,
+				FB476D831CA5704B00E31477 /* Main.storyboard in Resources */,
+				FB476DBB1CA57D1F00E31477 /* Provineces.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB476D8C1CA5704B00E31477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB476D971CA5704B00E31477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB476D711CA5704B00E31477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB476D7D1CA5704B00E31477 /* AppDelegate.m in Sources */,
+				FB476D7A1CA5704B00E31477 /* main.m in Sources */,
+				FB476DB41CA57B5400E31477 /* YSCitysTableViewController.m in Sources */,
+				FB476DAE1CA572D100E31477 /* YSHOMEViewController.m in Sources */,
+				FB476DC41CA6322700E31477 /* YSTableHeaderView.m in Sources */,
+				FB476E0F1CA8B93A00E31477 /* YSProvinces.m in Sources */,
+				FB476DCA1CA696C600E31477 /* YSCities.m in Sources */,
+				FB476DB81CA57CDC00E31477 /* YSCitysTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB476D8A1CA5704B00E31477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB476D931CA5704B00E31477 /* YUSIR________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB476D951CA5704B00E31477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB476D9E1CA5704B00E31477 /* YUSIR________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB476D901CA5704B00E31477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB476D741CA5704B00E31477 /* YUSIR地图定位切换城市 */;
+			targetProxy = FB476D8F1CA5704B00E31477 /* PBXContainerItemProxy */;
+		};
+		FB476D9B1CA5704B00E31477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB476D741CA5704B00E31477 /* YUSIR地图定位切换城市 */;
+			targetProxy = FB476D9A1CA5704B00E31477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB476D811CA5704B00E31477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB476D821CA5704B00E31477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB476D861CA5704B00E31477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB476D871CA5704B00E31477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB476DA01CA5704B00E31477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB476DA11CA5704B00E31477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB476DA31CA5704B00E31477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YUSIR地图定位切换城市/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB476DA41CA5704B00E31477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YUSIR地图定位切换城市/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB476DA61CA5704B00E31477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YUSIR地图定位切换城市Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YUSIR地图定位切换城市.app/YUSIR地图定位切换城市";
+			};
+			name = Debug;
+		};
+		FB476DA71CA5704B00E31477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YUSIR地图定位切换城市Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YUSIR地图定位切换城市.app/YUSIR地图定位切换城市";
+			};
+			name = Release;
+		};
+		FB476DA91CA5704B00E31477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YUSIR地图定位切换城市UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YUSIR地图定位切换城市";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB476DAA1CA5704B00E31477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YUSIR地图定位切换城市UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YUSIR地图定位切换城市";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB476D701CA5704B00E31477 /* Build configuration list for PBXProject "YUSIR地图定位切换城市" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB476DA01CA5704B00E31477 /* Debug */,
+				FB476DA11CA5704B00E31477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB476DA21CA5704B00E31477 /* Build configuration list for PBXNativeTarget "YUSIR地图定位切换城市" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB476DA31CA5704B00E31477 /* Debug */,
+				FB476DA41CA5704B00E31477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB476DA51CA5704B00E31477 /* Build configuration list for PBXNativeTarget "YUSIR地图定位切换城市Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB476DA61CA5704B00E31477 /* Debug */,
+				FB476DA71CA5704B00E31477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB476DA81CA5704B00E31477 /* Build configuration list for PBXNativeTarget "YUSIR地图定位切换城市UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB476DA91CA5704B00E31477 /* Debug */,
+				FB476DAA1CA5704B00E31477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB476D6D1CA5704B00E31477 /* Project object */;
+}
