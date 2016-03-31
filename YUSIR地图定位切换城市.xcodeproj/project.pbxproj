@@ -10,7 +10,6 @@
 		FB476D7A1CA5704B00E31477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476D791CA5704B00E31477 /* main.m */; };
 		FB476D7D1CA5704B00E31477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476D7C1CA5704B00E31477 /* AppDelegate.m */; };
 		FB476D831CA5704B00E31477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB476D811CA5704B00E31477 /* Main.storyboard */; };
-		FB476D851CA5704B00E31477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB476D841CA5704B00E31477 /* Assets.xcassets */; };
 		FB476D881CA5704B00E31477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB476D861CA5704B00E31477 /* LaunchScreen.storyboard */; };
 		FB476D931CA5704B00E31477 /* YUSIR________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476D921CA5704B00E31477 /* YUSIR________Tests.m */; };
 		FB476D9E1CA5704B00E31477 /* YUSIR________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476D9D1CA5704B00E31477 /* YUSIR________UITests.m */; };
@@ -23,6 +22,7 @@
 		FB476DC41CA6322700E31477 /* YSTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476DC31CA6322700E31477 /* YSTableHeaderView.m */; };
 		FB476DCA1CA696C600E31477 /* YSCities.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476DC91CA696C600E31477 /* YSCities.m */; };
 		FB476E0F1CA8B93A00E31477 /* YSProvinces.m in Sources */ = {isa = PBXBuildFile; fileRef = FB476E0E1CA8B93A00E31477 /* YSProvinces.m */; };
+		FBDBD1BB1CACED5B0024098A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDBD1BA1CACED5B0024098A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,6 @@
 		FB476D7B1CA5704B00E31477 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB476D7C1CA5704B00E31477 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FB476D821CA5704B00E31477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FB476D841CA5704B00E31477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB476D871CA5704B00E31477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB476D891CA5704B00E31477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB476D8E1CA5704B00E31477 /* YUSIR地图定位切换城市Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YUSIR地图定位切换城市Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +71,7 @@
 		FB476DC91CA696C600E31477 /* YSCities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCities.m; sourceTree = "<group>"; };
 		FB476E0D1CA8B93A00E31477 /* YSProvinces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSProvinces.h; sourceTree = "<group>"; };
 		FB476E0E1CA8B93A00E31477 /* YSProvinces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSProvinces.m; sourceTree = "<group>"; };
+		FBDBD1BA1CACED5B0024098A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 				FB476D7B1CA5704B00E31477 /* AppDelegate.h */,
 				FB476D7C1CA5704B00E31477 /* AppDelegate.m */,
 				FB476D811CA5704B00E31477 /* Main.storyboard */,
-				FB476D841CA5704B00E31477 /* Assets.xcassets */,
+				FBDBD1BA1CACED5B0024098A /* Assets.xcassets */,
 				FB476D861CA5704B00E31477 /* LaunchScreen.storyboard */,
 				FB476DBA1CA57D1F00E31477 /* Provineces.plist */,
 				FB476D891CA5704B00E31477 /* Info.plist */,
@@ -316,9 +316,9 @@
 			files = (
 				FB476DB91CA57CDC00E31477 /* YSCitysTableViewCell.xib in Resources */,
 				FB476D881CA5704B00E31477 /* LaunchScreen.storyboard in Resources */,
-				FB476D851CA5704B00E31477 /* Assets.xcassets in Resources */,
 				FB476D831CA5704B00E31477 /* Main.storyboard in Resources */,
 				FB476DBB1CA57D1F00E31477 /* Provineces.plist in Resources */,
+				FBDBD1BB1CACED5B0024098A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
